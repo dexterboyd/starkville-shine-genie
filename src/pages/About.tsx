@@ -92,8 +92,13 @@ const About = () => {
           </div>
         </section>
 
+        {/* Divider */}
+        <div className="container mx-auto px-4">
+          <div className="h-px bg-border" />
+        </div>
+
         {/* Our Values */}
-        <section className="py-16 bg-soft-gray">
+        <section className="py-12 bg-soft-gray">
           <div className="container mx-auto px-4">
             <div className="text-center max-w-2xl mx-auto mb-16">
               <span className="inline-block text-accent font-semibold text-sm uppercase tracking-wider mb-4">
