@@ -110,7 +110,7 @@ const About = () => {
 
         {/* Divider */}
         <div className="container mx-auto px-4">
-          <div className="h-px bg-border" />
+          <div className="h-px bg-primary/30" />
         </div>
 
         {/* Our Values */}
