@@ -7,6 +7,8 @@ import { Check, Droplets, Home, Sparkles, Shield, Leaf, Zap } from "lucide-react
 import windowImage from "@/assets/window-cleaning.jpg";
 import houseImage from "@/assets/house-washing.jpg";
 import pressureImage from "@/assets/pressure-washing.jpg";
+import bulldogIcon from "@/assets/bulldog-icon.png";
+import yellowjacketIcon from "@/assets/yellowjacket-icon.png";
 
 const Services = () => {
   const location = useLocation();
@@ -341,6 +343,21 @@ const Services = () => {
             <h3 className="font-heading text-2xl text-foreground mb-4">
               Proudly Serving Starkville & Surrounding Areas
             </h3>
+            
+            {/* Mascot Icons */}
+            <div className="flex items-center justify-center gap-6 mb-4">
+              <img 
+                src={bulldogIcon} 
+                alt="Mississippi State Bulldogs" 
+                className="w-10 h-10 object-contain opacity-70 hover:opacity-100 transition-opacity" 
+              />
+              <img 
+                src={yellowjacketIcon} 
+                alt="Starkville High Yellow Jackets" 
+                className="w-10 h-10 object-contain opacity-70 hover:opacity-100 transition-opacity" 
+              />
+            </div>
+            
             <p className="text-muted-foreground max-w-2xl mx-auto">
               We provide professional window cleaning, house washing, and pressure washing services throughout 
               Starkville, MS, and the greater Oktibbeha County area, including Columbus, 
