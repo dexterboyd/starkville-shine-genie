@@ -46,7 +46,7 @@ const HeroSection = () => {
             >
               <a href="tel:+1234567890">
                 <Phone className="w-5 h-5 mr-2" />
-                Call for Free Quote
+                Call (662) 123-4567
               </a>
             </Button>
             <Button

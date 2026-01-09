@@ -10,7 +10,6 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "Services", path: "/services" },
-    { name: "Our Work", path: "/our-work" },
     { name: "About", path: "/about" },
   ];
 
@@ -55,8 +54,8 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* CTA Button */}
-          <div className="hidden md:flex items-center gap-4">
+          {/* Phone */}
+          <div className="hidden md:flex items-center">
             <a
               href="tel:+1234567890"
               className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
@@ -64,9 +63,6 @@ const Navbar = () => {
               <Phone className="w-4 h-4" />
               <span className="font-medium">(662) 123-4567</span>
             </a>
-            <Button asChild className="bg-accent text-accent-foreground hover:bg-gold-dark shadow-button font-semibold">
-              <a href="tel:+1234567890">Get Free Quote</a>
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -105,9 +101,6 @@ const Navbar = () => {
                   <Phone className="w-4 h-4" />
                   <span className="font-medium">(662) 123-4567</span>
                 </a>
-                <Button asChild className="w-full mt-3 bg-accent text-accent-foreground hover:bg-gold-dark">
-                  <a href="tel:+1234567890">Get Free Quote</a>
-                </Button>
               </div>
             </div>
           </div>
