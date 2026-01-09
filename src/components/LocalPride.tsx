@@ -1,4 +1,5 @@
-import { MapPin, Dog } from "lucide-react";
+import { MapPin } from "lucide-react";
+import bulldogIcon from "@/assets/bulldog-icon.png";
 
 const LocalPride = () => {
   return (
@@ -15,7 +16,7 @@ const LocalPride = () => {
           <div className="hidden md:block w-px h-12 bg-border" />
           
           <div className="flex items-center gap-3">
-            <Dog className="w-6 h-6 text-accent" />
+            <img src={bulldogIcon} alt="Mississippi State Bulldog" className="w-8 h-8 object-contain" />
             <span className="font-heading text-xl text-foreground">
               Home of the <span className="text-primary font-bold">Mississippi State Bulldogs</span>
             </span>
