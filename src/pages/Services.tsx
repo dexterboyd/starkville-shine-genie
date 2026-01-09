@@ -49,8 +49,13 @@ const Services = () => {
           </div>
         </section>
 
+        {/* Divider */}
+        <div className="container mx-auto px-4 bg-background">
+          <div className="h-px bg-border" />
+        </div>
+
         {/* Window Cleaning Section */}
-        <section id="window-cleaning" className="py-24 bg-background">
+        <section id="window-cleaning" className="py-12 bg-background">
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               {/* Image */}
