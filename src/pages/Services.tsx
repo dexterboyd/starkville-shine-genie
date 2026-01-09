@@ -1,0 +1,246 @@
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import CTASection from "@/components/CTASection";
+import { Check, Droplets, Home, Sparkles, Shield, Leaf } from "lucide-react";
+import windowImage from "@/assets/window-cleaning.jpg";
+import houseImage from "@/assets/house-washing.jpg";
+
+const Services = () => {
+  return (
+    <div className="min-h-screen">
+      <Navbar />
+      <main>
+        {/* Hero Section */}
+        <section className="pt-32 pb-20 bg-hero-gradient relative overflow-hidden">
+          <div className="absolute inset-0 bg-[url('/placeholder.svg')] opacity-5" />
+          <div className="container mx-auto px-4 relative z-10">
+            <div className="max-w-3xl mx-auto text-center">
+              <span className="inline-block text-accent font-semibold text-sm uppercase tracking-wider mb-4">
+                Our Services
+              </span>
+              <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
+                Professional Exterior Cleaning{" "}
+                <span className="text-accent">Services</span>
+              </h1>
+              <p className="text-xl text-primary-foreground/90 leading-relaxed">
+                From crystal-clear windows to spotless siding, Pressure Pros delivers 
+                exceptional results for Starkville, MS homeowners and businesses.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Window Cleaning Section */}
+        <section id="window-cleaning" className="py-24 bg-background">
+          <div className="container mx-auto px-4">
+            <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+              {/* Image */}
+              <div className="relative">
+                <div className="rounded-2xl overflow-hidden shadow-elevated">
+                  <img
+                    src={windowImage}
+                    alt="Professional window cleaning service in Starkville, MS"
+                    className="w-full h-[400px] lg:h-[500px] object-cover"
+                  />
+                </div>
+                <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent rounded-2xl flex items-center justify-center shadow-card">
+                  <Droplets className="w-16 h-16 text-accent-foreground" />
+                </div>
+              </div>
+
+              {/* Content */}
+              <div>
+                <span className="inline-flex items-center gap-2 text-accent font-semibold text-sm uppercase tracking-wider mb-4">
+                  <Droplets className="w-4 h-4" />
+                  Primary Service
+                </span>
+                <h2 className="font-heading text-3xl md:text-4xl text-foreground mb-6">
+                  Window Cleaning in{" "}
+                  <span className="text-primary">Starkville, MS</span>
+                </h2>
+                <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
+                  Let the sunshine in with our professional window cleaning services. 
+                  We deliver streak-free, crystal-clear results that make your home shine. 
+                  Our eco-friendly solutions are safe for your family, pets, and landscaping.
+                </p>
+
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Sparkles className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <h4 className="font-heading font-semibold text-foreground mb-1">
+                        Streak-Free Results Guaranteed
+                      </h4>
+                      <p className="text-muted-foreground text-sm">
+                        We use professional-grade equipment and techniques for flawless windows every time.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Leaf className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <h4 className="font-heading font-semibold text-foreground mb-1">
+                        Eco-Friendly Solutions
+                      </h4>
+                      <p className="text-muted-foreground text-sm">
+                        Safe for children, pets, and your landscaping. Gentle on glass, tough on dirt.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Shield className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <h4 className="font-heading font-semibold text-foreground mb-1">
+                        Safe for All Property Types
+                      </h4>
+                      <p className="text-muted-foreground text-sm">
+                        Residential homes, commercial buildings, storefronts, and rental properties.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <ul className="grid sm:grid-cols-2 gap-3">
+                  {[
+                    "Interior & exterior cleaning",
+                    "Screen cleaning included",
+                    "Track & sill cleaning",
+                    "Hard water stain removal",
+                    "Storm window cleaning",
+                    "Skylight cleaning",
+                  ].map((item) => (
+                    <li key={item} className="flex items-center gap-2 text-foreground">
+                      <Check className="w-5 h-5 text-accent flex-shrink-0" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* House Washing Section */}
+        <section id="house-washing" className="py-24 bg-soft-gray">
+          <div className="container mx-auto px-4">
+            <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+              {/* Content */}
+              <div className="order-2 lg:order-1">
+                <span className="inline-flex items-center gap-2 text-accent font-semibold text-sm uppercase tracking-wider mb-4">
+                  <Home className="w-4 h-4" />
+                  Secondary Service
+                </span>
+                <h2 className="font-heading text-3xl md:text-4xl text-foreground mb-6">
+                  House Washing Services for{" "}
+                  <span className="text-primary">Starkville Homes</span>
+                </h2>
+                <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
+                  Restore your home's curb appeal with our professional house washing services. 
+                  We safely remove years of built-up dirt, mold, mildew, and algae using 
+                  soft washing techniques that protect your siding.
+                </p>
+
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Home className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <h4 className="font-heading font-semibold text-foreground mb-1">
+                        Safe for Vinyl & Brick
+                      </h4>
+                      <p className="text-muted-foreground text-sm">
+                        Our soft washing technique is gentle on all siding materials while delivering powerful results.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Sparkles className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <h4 className="font-heading font-semibold text-foreground mb-1">
+                        Mold & Mildew Removal
+                      </h4>
+                      <p className="text-muted-foreground text-sm">
+                        Eliminate harmful growth that can damage your home's exterior and affect air quality.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Shield className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <h4 className="font-heading font-semibold text-foreground mb-1">
+                        Protect Property Value
+                      </h4>
+                      <p className="text-muted-foreground text-sm">
+                        Regular house washing maintains your home's appearance and prevents costly repairs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <ul className="grid sm:grid-cols-2 gap-3">
+                  {[
+                    "Vinyl siding cleaning",
+                    "Brick & stone washing",
+                    "Algae & moss removal",
+                    "Dirt & grime removal",
+                    "Safe pressure techniques",
+                    "Curb appeal restoration",
+                  ].map((item) => (
+                    <li key={item} className="flex items-center gap-2 text-foreground">
+                      <Check className="w-5 h-5 text-accent flex-shrink-0" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Image */}
+              <div className="relative order-1 lg:order-2">
+                <div className="rounded-2xl overflow-hidden shadow-elevated">
+                  <img
+                    src={houseImage}
+                    alt="Professional house washing service in Starkville, MS"
+                    className="w-full h-[400px] lg:h-[500px] object-cover"
+                  />
+                </div>
+                <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-primary rounded-2xl flex items-center justify-center shadow-card">
+                  <Home className="w-16 h-16 text-primary-foreground" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Service Areas */}
+        <section className="py-16 bg-card border-y border-border">
+          <div className="container mx-auto px-4 text-center">
+            <h3 className="font-heading text-2xl text-foreground mb-4">
+              Proudly Serving Starkville & Surrounding Areas
+            </h3>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              We provide professional window cleaning and house washing services throughout 
+              Starkville, MS, and the greater Oktibbeha County area, including Columbus, 
+              West Point, Louisville, and surrounding communities.
+            </p>
+          </div>
+        </section>
+
+        <CTASection />
+      </main>
+      <Footer />
+    </div>
+  );
+};
+
+export default Services;
