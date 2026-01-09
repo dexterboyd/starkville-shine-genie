@@ -151,7 +151,7 @@ const Services = () => {
         </div>
 
         {/* House Washing Section */}
-        <section id="house-washing" className="pt-4 pb-24 bg-soft-gray">
+        <section id="house-washing" className="py-12 bg-soft-gray">
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               {/* Content */}
@@ -252,7 +252,7 @@ const Services = () => {
         </div>
 
         {/* Pressure Washing Section */}
-        <section id="pressure-washing" className="pt-4 pb-24 bg-background">
+        <section id="pressure-washing" className="py-12 bg-background">
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               {/* Image */}
