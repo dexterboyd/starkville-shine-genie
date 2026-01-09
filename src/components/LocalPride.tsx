@@ -1,4 +1,4 @@
-import { MapPin, Heart } from "lucide-react";
+import { MapPin, Dog } from "lucide-react";
 
 const LocalPride = () => {
   return (
@@ -15,7 +15,7 @@ const LocalPride = () => {
           <div className="hidden md:block w-px h-12 bg-border" />
           
           <div className="flex items-center gap-3">
-            <Heart className="w-6 h-6 text-accent" />
+            <Dog className="w-6 h-6 text-accent" />
             <span className="font-heading text-xl text-foreground">
               Home of the <span className="text-primary font-bold">Mississippi State Bulldogs</span>
             </span>
