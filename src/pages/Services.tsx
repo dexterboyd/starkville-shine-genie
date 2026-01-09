@@ -1,11 +1,27 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
-import { Check, Droplets, Home, Sparkles, Shield, Leaf } from "lucide-react";
+import { Check, Droplets, Home, Sparkles, Shield, Leaf, Zap } from "lucide-react";
 import windowImage from "@/assets/window-cleaning.jpg";
 import houseImage from "@/assets/house-washing.jpg";
 
 const Services = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.slice(1));
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth" });
+        }, 100);
+      }
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [location]);
   return (
     <div className="min-h-screen">
       <Navbar />
@@ -222,6 +238,98 @@ const Services = () => {
           </div>
         </section>
 
+        {/* Pressure Washing Section */}
+        <section id="pressure-washing" className="py-24 bg-background">
+          <div className="container mx-auto px-4">
+            <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+              {/* Image */}
+              <div className="relative">
+                <div className="rounded-2xl overflow-hidden shadow-elevated bg-primary/10 flex items-center justify-center h-[400px] lg:h-[500px]">
+                  <Zap className="w-32 h-32 text-primary/30" />
+                </div>
+                <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent rounded-2xl flex items-center justify-center shadow-card">
+                  <Zap className="w-16 h-16 text-accent-foreground" />
+                </div>
+              </div>
+
+              {/* Content */}
+              <div>
+                <span className="inline-flex items-center gap-2 text-accent font-semibold text-sm uppercase tracking-wider mb-4">
+                  <Zap className="w-4 h-4" />
+                  Additional Service
+                </span>
+                <h2 className="font-heading text-3xl md:text-4xl text-foreground mb-6">
+                  Pressure Washing in{" "}
+                  <span className="text-primary">Starkville, MS</span>
+                </h2>
+                <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
+                  Power through tough stains on driveways, patios, decks, and more. 
+                  Our professional pressure washing services restore surfaces to their 
+                  original beauty while protecting your investment.
+                </p>
+
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Zap className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <h4 className="font-heading font-semibold text-foreground mb-1">
+                        High-Power Cleaning
+                      </h4>
+                      <p className="text-muted-foreground text-sm">
+                        Commercial-grade equipment removes years of built-up grime, oil stains, and discoloration.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Shield className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <h4 className="font-heading font-semibold text-foreground mb-1">
+                        Surface Safe Techniques
+                      </h4>
+                      <p className="text-muted-foreground text-sm">
+                        We adjust pressure levels for each surface to clean effectively without causing damage.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Sparkles className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <h4 className="font-heading font-semibold text-foreground mb-1">
+                        Like-New Results
+                      </h4>
+                      <p className="text-muted-foreground text-sm">
+                        Transform weathered concrete, wood, and stone back to their original appearance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <ul className="grid sm:grid-cols-2 gap-3">
+                  {[
+                    "Driveway cleaning",
+                    "Patio & deck washing",
+                    "Sidewalk cleaning",
+                    "Fence restoration",
+                    "Concrete stain removal",
+                    "Outdoor furniture cleaning",
+                  ].map((item) => (
+                    <li key={item} className="flex items-center gap-2 text-foreground">
+                      <Check className="w-5 h-5 text-accent flex-shrink-0" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Service Areas */}
         <section className="py-16 bg-card border-y border-border">
           <div className="container mx-auto px-4 text-center">
@@ -229,7 +337,7 @@ const Services = () => {
               Proudly Serving Starkville & Surrounding Areas
             </h3>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              We provide professional window cleaning and house washing services throughout 
+              We provide professional window cleaning, house washing, and pressure washing services throughout 
               Starkville, MS, and the greater Oktibbeha County area, including Columbus, 
               West Point, Louisville, and surrounding communities.
             </p>
