@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Phone, Sparkles, Shield, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-window.jpg";
@@ -54,7 +55,7 @@ const HeroSection = () => {
               variant="outline"
               className="border-2 border-primary-foreground/30 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground/20 backdrop-blur-sm text-lg px-8 py-6"
             >
-              <a href="/services">View Our Services</a>
+              <Link to="/services">View Our Services</Link>
             </Button>
           </div>
 
