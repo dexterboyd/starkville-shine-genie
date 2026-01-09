@@ -6,6 +6,7 @@ import CTASection from "@/components/CTASection";
 import { Check, Droplets, Home, Sparkles, Shield, Leaf, Zap } from "lucide-react";
 import windowImage from "@/assets/window-cleaning.jpg";
 import houseImage from "@/assets/house-washing.jpg";
+import pressureImage from "@/assets/pressure-washing.jpg";
 
 const Services = () => {
   const location = useLocation();
@@ -244,8 +245,12 @@ const Services = () => {
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               {/* Image */}
               <div className="relative">
-                <div className="rounded-2xl overflow-hidden shadow-elevated bg-primary/10 flex items-center justify-center h-[400px] lg:h-[500px]">
-                  <Zap className="w-32 h-32 text-primary/30" />
+                <div className="rounded-2xl overflow-hidden shadow-elevated">
+                  <img
+                    src={pressureImage}
+                    alt="Professional pressure washing service in Starkville, MS"
+                    className="w-full h-[400px] lg:h-[500px] object-cover"
+                  />
                 </div>
                 <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent rounded-2xl flex items-center justify-center shadow-card">
                   <Zap className="w-16 h-16 text-accent-foreground" />
