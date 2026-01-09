@@ -1,6 +1,5 @@
 import { MapPin } from "lucide-react";
 import bulldogIcon from "@/assets/bulldog-icon.png";
-import yellowjacketIcon from "@/assets/yellowjacket-icon.png";
 
 const LocalPride = () => {
   return (
@@ -18,9 +17,8 @@ const LocalPride = () => {
           
           <div className="flex items-center gap-3">
             <img src={bulldogIcon} alt="Mississippi State Bulldog" className="w-8 h-8 object-contain" />
-            <img src={yellowjacketIcon} alt="Starkville High Yellow Jacket" className="w-8 h-8 object-contain" />
             <span className="font-heading text-xl text-foreground">
-              Home of the <span className="text-primary font-bold">Mississippi State Bulldogs</span> & <span className="text-primary font-bold">Starkville High Yellow Jackets</span>
+              Home of the <span className="text-primary font-bold">Mississippi State Bulldogs</span>
             </span>
           </div>
         </div>
