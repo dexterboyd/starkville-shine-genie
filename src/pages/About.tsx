@@ -30,7 +30,7 @@ const About = () => {
         </section>
 
         {/* Our Story */}
-        <section className="py-24 bg-background">
+        <section className="py-16 bg-background">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
@@ -93,7 +93,7 @@ const About = () => {
         </section>
 
         {/* Our Values */}
-        <section className="py-24 bg-soft-gray">
+        <section className="py-16 bg-soft-gray">
           <div className="container mx-auto px-4">
             <div className="text-center max-w-2xl mx-auto mb-16">
               <span className="inline-block text-accent font-semibold text-sm uppercase tracking-wider mb-4">
