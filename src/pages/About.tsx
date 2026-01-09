@@ -48,7 +48,7 @@ const About = () => {
                     to provide Starkville homeowners with honest, reliable, and professional 
                     exterior cleaning services they can trust.
                   </p>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-muted-foreground text-lg leading-relaxed">
                     As a locally owned and operated business, we understand what makes our 
                     community special. From the beautiful homes near the Mississippi State campus 
                     to the charming neighborhoods throughout town, we take pride in helping our 
