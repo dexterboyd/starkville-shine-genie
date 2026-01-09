@@ -3,7 +3,7 @@ import bulldogIcon from "@/assets/bulldog-icon.png";
 
 const LocalPride = () => {
   return (
-    <section className="py-16 bg-card border-y border-border">
+    <section className="py-16 bg-card border-y border-primary/30">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 text-center md:text-left">
           <div className="flex items-center gap-3">
@@ -13,7 +13,7 @@ const LocalPride = () => {
             </span>
           </div>
           
-          <div className="hidden md:block w-px h-12 bg-border" />
+          <div className="hidden md:block w-px h-12 bg-primary/30" />
           
           <div className="flex items-center gap-3">
             <img src={bulldogIcon} alt="Mississippi State Bulldog" className="w-8 h-8 object-contain" />
