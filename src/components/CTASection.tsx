@@ -13,7 +13,7 @@ const CTASection = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-primary-foreground/10 backdrop-blur-sm text-primary-foreground px-4 py-2 rounded-full mb-6">
             <Sparkles className="w-4 h-4 text-accent" />
-            <span className="text-sm font-medium">Free Estimates • No Obligation</span>
+            <span className="text-sm font-medium">Professional Service • Quality Results</span>
           </div>
 
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl text-primary-foreground mb-6">
@@ -23,7 +23,7 @@ const CTASection = () => {
           </h2>
 
           <p className="text-xl text-primary-foreground/90 mb-10 max-w-2xl mx-auto">
-            Get a free, no-obligation quote for your Starkville home today. 
+            Contact us today for your Starkville home. 
             Our friendly team is ready to help you see the difference.
           </p>
 
@@ -46,7 +46,7 @@ const CTASection = () => {
             >
               <a href="mailto:info@pressureprosms.com">
                 <Calendar className="w-5 h-5 mr-2" />
-                Request Quote Online
+                Contact Us Online
               </a>
             </Button>
           </div>
