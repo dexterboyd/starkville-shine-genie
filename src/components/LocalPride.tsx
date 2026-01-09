@@ -9,7 +9,7 @@ const LocalPride = () => {
           <div className="flex items-center gap-3">
             <MapPin className="w-6 h-6 text-accent" />
             <span className="font-heading text-xl text-foreground">
-              Proudly Serving <span className="text-primary font-bold">Starkville, MS</span>
+              Proudly Serving <span className="text-primary font-bold">Starkville, MS</span> and surrounding areas
             </span>
           </div>
           
