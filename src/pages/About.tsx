@@ -2,6 +2,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
 import { MapPin, Heart, Award, Users, Target, Shield } from "lucide-react";
+import bulldogIcon from "@/assets/bulldog-icon.png";
+import yellowjacketIcon from "@/assets/yellowjacket-icon.png";
 
 const About = () => {
   return (
@@ -91,6 +93,20 @@ const About = () => {
             </div>
           </div>
         </section>
+
+        {/* Mascot Icons */}
+        <div className="flex items-center justify-center gap-8 py-8 bg-background">
+          <img 
+            src={bulldogIcon} 
+            alt="Mississippi State Bulldogs" 
+            className="w-16 h-16 object-contain opacity-70 hover:opacity-100 transition-opacity" 
+          />
+          <img 
+            src={yellowjacketIcon} 
+            alt="Starkville High Yellow Jackets" 
+            className="w-16 h-16 object-contain opacity-70 hover:opacity-100 transition-opacity" 
+          />
+        </div>
 
         {/* Divider */}
         <div className="container mx-auto px-4">
