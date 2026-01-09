@@ -345,16 +345,16 @@ const Services = () => {
             </h3>
             
             {/* Mascot Icons */}
-            <div className="flex items-center justify-center gap-6 mb-4">
+            <div className="flex items-center justify-center gap-8 mb-4">
               <img 
                 src={bulldogIcon} 
                 alt="Mississippi State Bulldogs" 
-                className="w-10 h-10 object-contain opacity-70 hover:opacity-100 transition-opacity" 
+                className="w-16 h-16 object-contain opacity-70 hover:opacity-100 transition-opacity" 
               />
               <img 
                 src={yellowjacketIcon} 
                 alt="Starkville High Yellow Jackets" 
-                className="w-10 h-10 object-contain opacity-70 hover:opacity-100 transition-opacity" 
+                className="w-16 h-16 object-contain opacity-70 hover:opacity-100 transition-opacity" 
               />
             </div>
             
