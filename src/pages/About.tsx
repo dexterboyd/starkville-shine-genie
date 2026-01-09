@@ -95,7 +95,7 @@ const About = () => {
         </section>
 
         {/* Mascot Icons */}
-        <div className="flex items-center justify-center gap-8 py-8 bg-background">
+        <div className="flex items-center justify-center gap-8 pt-0 pb-8 bg-background">
           <img 
             src={bulldogIcon} 
             alt="Mississippi State Bulldogs" 
