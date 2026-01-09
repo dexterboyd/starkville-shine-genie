@@ -145,8 +145,13 @@ const Services = () => {
           </div>
         </section>
 
+        {/* Divider */}
+        <div className="container mx-auto px-4 bg-background">
+          <div className="h-px bg-border" />
+        </div>
+
         {/* House Washing Section */}
-        <section id="house-washing" className="pt-8 pb-24 bg-soft-gray">
+        <section id="house-washing" className="pt-4 pb-24 bg-soft-gray">
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               {/* Content */}
@@ -241,8 +246,13 @@ const Services = () => {
           </div>
         </section>
 
+        {/* Divider */}
+        <div className="container mx-auto px-4 bg-soft-gray">
+          <div className="h-px bg-border" />
+        </div>
+
         {/* Pressure Washing Section */}
-        <section id="pressure-washing" className="pt-8 pb-24 bg-background">
+        <section id="pressure-washing" className="pt-4 pb-24 bg-background">
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               {/* Image */}
