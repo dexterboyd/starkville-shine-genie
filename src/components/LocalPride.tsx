@@ -5,7 +5,7 @@ const LocalPride = () => {
   return (
     <section className="py-16 bg-card border-y border-primary/30">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 text-center md:text-left">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 text-center md:text-left">
           <div className="flex items-center gap-3">
             <MapPin className="w-6 h-6 text-accent" />
             <span className="font-heading text-xl text-foreground">
