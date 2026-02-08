@@ -55,7 +55,7 @@ const Services = () => {
         </div>
 
         {/* Window Cleaning Section */}
-        <section id="window-cleaning" className="py-12 bg-background">
+        <section id="window-cleaning" className="py-12 bg-background scroll-mt-20">
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               {/* Image */}
@@ -156,7 +156,7 @@ const Services = () => {
         </div>
 
         {/* House Washing Section */}
-        <section id="house-washing" className="py-12 bg-soft-gray">
+        <section id="house-washing" className="py-12 bg-soft-gray scroll-mt-20">
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               {/* Content */}
@@ -257,7 +257,7 @@ const Services = () => {
         </div>
 
         {/* Pressure Washing Section */}
-        <section id="pressure-washing" className="py-12 bg-background">
+        <section id="pressure-washing" className="py-12 bg-background scroll-mt-20">
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               {/* Image */}
