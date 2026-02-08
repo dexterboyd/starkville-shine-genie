@@ -22,8 +22,10 @@ const CTASection = () => {
             Windows?
           </h2>
 
+          <p className="text-xl text-primary-foreground/90 mb-2 max-w-2xl mx-auto">
+            Contact us today for your Starkville home or business.
+          </p>
           <p className="text-xl text-primary-foreground/90 mb-10 max-w-2xl mx-auto">
-            Contact us today for your Starkville home. 
             Our friendly team is ready to help you see the difference.
           </p>
 
