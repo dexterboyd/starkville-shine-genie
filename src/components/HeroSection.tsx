@@ -28,13 +28,15 @@ const HeroSection = () => {
           {/* Headline */}
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl text-primary-foreground leading-tight mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
             Crystal Clear Windows.{" "}
-            <span className="text-accent">Spotless Exteriors.</span>
+            <span className="text-accent block">Spotless Exteriors.</span>
           </h1>
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 leading-relaxed animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Professional window cleaning and house washing services for Starkville, MS 
-            homeowners. Experience the difference that attention to detail makes.
+            Professional window cleaning and house washing services for
+            Starkville, MS homeowners and businesses.
+            <br className="hidden md:block" />
+            Experience the difference that attention to detail makes.
           </p>
 
           {/* CTAs */}
@@ -44,9 +46,9 @@ const HeroSection = () => {
               size="lg"
               className="bg-accent text-accent-foreground hover:bg-gold-dark shadow-button text-lg px-8 py-6 font-semibold"
             >
-              <a href="tel:+1234567890">
+              <a href="tel:+16622420663">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (662) 123-4567
+                Call (662) 242-0663
               </a>
             </Button>
             <Button

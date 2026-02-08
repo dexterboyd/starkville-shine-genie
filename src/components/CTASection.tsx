@@ -33,9 +33,9 @@ const CTASection = () => {
               size="lg"
               className="bg-accent text-accent-foreground hover:bg-gold-dark shadow-button text-lg px-8 py-6 font-semibold"
             >
-              <a href="tel:+1234567890">
+              <a href="tel:+16622420663">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (662) 123-4567
+                Call (662) 242-0663
               </a>
             </Button>
             <Button
