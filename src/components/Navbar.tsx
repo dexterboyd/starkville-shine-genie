@@ -57,11 +57,11 @@ const Navbar = () => {
           {/* Phone */}
           <div className="hidden md:flex items-center">
             <a
-              href="tel:+1234567890"
+              href="tel:+16622420663"
               className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
             >
               <Phone className="w-4 h-4" />
-              <span className="font-medium">(662) 123-4567</span>
+              <span className="font-medium">(662) 242-0663</span>
             </a>
           </div>
 
@@ -95,11 +95,11 @@ const Navbar = () => {
               ))}
               <div className="pt-4 border-t border-border">
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+16622420663"
                   className="flex items-center gap-2 text-foreground py-2 px-4"
                 >
                   <Phone className="w-4 h-4" />
-                  <span className="font-medium">(662) 123-4567</span>
+                  <span className="font-medium">(662) 242-0663</span>
                 </a>
               </div>
             </div>
