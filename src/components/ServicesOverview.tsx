@@ -29,7 +29,7 @@ const ServicesOverview = () => {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block text-accent font-semibold text-sm uppercase tracking-wider mb-4">
+          <span className="inline-block text-accent font-semibold text-base uppercase tracking-wider mb-4">
             Our Services
           </span>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl text-foreground mb-6">
