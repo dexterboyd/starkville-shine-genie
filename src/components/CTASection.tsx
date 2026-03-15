@@ -3,19 +3,13 @@ import { Button } from "@/components/ui/button";
 
 const CTASection = () => {
   return (
-    <section className="py-24 bg-hero-gradient relative overflow-hidden">
+    <section className="py-16 bg-hero-gradient relative overflow-hidden">
       {/* Decorative Elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-sky/10 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-primary-foreground/10 backdrop-blur-sm text-primary-foreground px-4 py-2 rounded-full mb-6">
-            <Sparkles className="w-4 h-4 text-accent" />
-            <span className="text-sm font-medium">Professional Service • Quality Results</span>
-          </div>
-
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl text-primary-foreground mb-6">
             Ready for{" "}
             <span className="text-accent">Sparkling Clean</span>{" "}
