@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Sparkles, Shield, Clock } from "lucide-react";
+import { Sparkles, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-window.jpg";
 
@@ -43,16 +43,6 @@ const HeroSection = () => {
             <Button
               asChild
               size="lg"
-              className="bg-accent text-accent-foreground hover:bg-gold-dark shadow-button text-lg px-8 py-6 font-semibold"
-            >
-              <a href="tel:+16622420663">
-                <Phone className="w-5 h-5 mr-2" />
-                Call (662) 242-0663
-              </a>
-            </Button>
-            <Button
-              asChild
-              size="lg"
               variant="outline"
               className="border-2 border-primary-foreground/30 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground/20 backdrop-blur-sm text-lg px-8 py-6"
             >
@@ -61,16 +51,7 @@ const HeroSection = () => {
           </div>
 
           {/* Trust Badges */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 animate-fade-up" style={{ animationDelay: "0.4s" }}>
-            <div className="flex items-center gap-3 text-primary-foreground/90">
-              <div className="w-12 h-12 rounded-xl bg-primary-foreground/10 backdrop-blur-sm flex items-center justify-center">
-                <Shield className="w-6 h-6 text-accent" />
-              </div>
-              <div>
-                <p className="font-semibold">Fully Insured</p>
-                <p className="text-sm text-primary-foreground/70">Your peace of mind</p>
-              </div>
-            </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 animate-fade-up" style={{ animationDelay: "0.4s" }}>
             <div className="flex items-center gap-3 text-primary-foreground/90">
               <div className="w-12 h-12 rounded-xl bg-primary-foreground/10 backdrop-blur-sm flex items-center justify-center">
                 <Sparkles className="w-6 h-6 text-accent" />
