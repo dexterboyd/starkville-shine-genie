@@ -33,8 +33,7 @@ const HeroSection = () => {
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 leading-relaxed animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Professional window cleaning and house washing services for
-            Starkville, MS homeowners and businesses.
+            Professional window cleaning and house washing services for homeowners and businesses.
             <br className="hidden md:block" />
             Experience the difference that attention to detail makes.
           </p>
