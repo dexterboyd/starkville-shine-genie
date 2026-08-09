@@ -30,16 +30,15 @@ const Services = () => {
       <main>
         {/* Hero Section */}
         <section className="relative min-h-[60vh] flex items-center pt-32 pb-10 overflow-hidden">
-          <video
-            className="absolute inset-0 w-full h-full object-cover"
-            src="https://video.wixstatic.com/video/84770f_0512b95c6bd44398a825e832e08a47a5/1080p/mp4/file.mp4"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="auto"
-          />
-          <div className="absolute inset-0 bg-hero-gradient opacity-80" />
+          {/* Background Image */}
+          <div className="absolute inset-0 z-0">
+            <img
+              src={heroImage}
+              alt="Professional window cleaning"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-overlay-gradient" />
+          </div>
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
