@@ -1,20 +1,21 @@
 import { Link } from "react-router-dom";
 import { Sparkles, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-window.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center pt-20">
-      {/* Background Image */}
-      <div className="absolute inset-0 z-0">
-        <img
-          src={heroImage}
-          alt="Professional window cleaning"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-overlay-gradient" />
-      </div>
+    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+      {/* Background Video */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover"
+        src="https://video.wixstatic.com/video/84770f_0512b95c6bd44398a825e832e08a47a5/1080p/mp4/file.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+      />
+      <div className="absolute inset-0 bg-hero-gradient opacity-80" />
 
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10 py-20">

@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
 import { Check, Droplets, Home, Sparkles, Shield, Leaf, Zap } from "lucide-react";
+import heroImage from "@/assets/hero-window.jpg";
 import windowImage from "@/assets/window-cleaning.jpg";
 import houseImage from "@/assets/house-washing.jpg";
 import pressureImage from "@/assets/pressure-washing.jpg";
