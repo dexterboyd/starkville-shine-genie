@@ -6,7 +6,6 @@ import CTASection from "@/components/CTASection";
 import { Check, Droplets, Home, Sparkles, Shield, Leaf, Zap } from "lucide-react";
 import windowImage from "@/assets/window-cleaning.jpg";
 import houseImage from "@/assets/house-washing.jpg";
-import pressureImage from "@/assets/pressure-washing.jpg";
 
 const Services = () => {
   const location = useLocation();
@@ -215,7 +214,7 @@ const Services = () => {
                     "Brick & stone washing",
                     "Algae & moss removal",
                     "Dirt & grime removal",
-                    "Safe pressure techniques",
+                    "Gentle soft wash methods",
                     "Curb appeal restoration",
                   ].map((item) => (
                     <li key={item} className="flex items-center gap-2 text-foreground">
@@ -240,101 +239,6 @@ const Services = () => {
           </div>
         </section>
 
-        {/* Divider */}
-        <div className="container mx-auto px-4 bg-soft-gray">
-          <div className="h-px bg-border" />
-        </div>
-
-        {/* Pressure Washing Section */}
-        <section id="pressure-washing" className="py-10 bg-background scroll-mt-20">
-          <div className="container mx-auto px-4">
-            <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-              {/* Content */}
-              <div>
-                <span className="inline-flex items-center gap-2 text-accent font-semibold text-sm uppercase tracking-wider mb-4">
-                  Additional Service
-                </span>
-                <h2 className="font-heading text-3xl md:text-4xl text-foreground mb-6">
-                  Pressure Washing
-                </h2>
-                <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-                  Power through tough stains on driveways, patios, decks, and more. 
-                  Our professional pressure washing services restore surfaces to their 
-                  original beauty while protecting your investment.
-                </p>
-
-                <div className="space-y-3 mb-6">
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                      <Zap className="w-5 h-5 text-primary" />
-                    </div>
-                    <div>
-                      <h4 className="font-heading font-semibold text-foreground mb-1">
-                        High-Power Cleaning
-                      </h4>
-                      <p className="text-muted-foreground text-sm">
-                        Commercial-grade equipment removes years of built-up grime, oil stains, and discoloration.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                      <Shield className="w-5 h-5 text-primary" />
-                    </div>
-                    <div>
-                      <h4 className="font-heading font-semibold text-foreground mb-1">
-                        Surface Safe Techniques
-                      </h4>
-                      <p className="text-muted-foreground text-sm">
-                        We adjust pressure levels for each surface to clean effectively without causing damage.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                      <Sparkles className="w-5 h-5 text-primary" />
-                    </div>
-                    <div>
-                      <h4 className="font-heading font-semibold text-foreground mb-1">
-                        Like-New Results
-                      </h4>
-                      <p className="text-muted-foreground text-sm">
-                        Transform weathered concrete, wood, and stone back to their original appearance.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <ul className="grid sm:grid-cols-2 gap-3">
-                  {[
-                    "Driveway cleaning",
-                    "Patio & deck washing",
-                    "Sidewalk cleaning",
-                    "Fence restoration",
-                    "Concrete stain removal",
-                    "Outdoor furniture cleaning",
-                  ].map((item) => (
-                    <li key={item} className="flex items-center gap-2 text-foreground">
-                      <Check className="w-5 h-5 text-accent flex-shrink-0" />
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Image */}
-              <div className="relative">
-                <div className="rounded-2xl overflow-hidden shadow-elevated">
-                  <img
-                    src={pressureImage}
-                    alt="Professional pressure washing service"
-                    className="w-full h-[350px] lg:h-[450px] object-cover"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Service Areas */}
         <section className="py-10 bg-card border-y border-border">
@@ -343,7 +247,7 @@ const Services = () => {
               Proudly Serving Starkville & Surrounding Areas
             </h3>
             <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              We provide professional window cleaning, house washing, and pressure washing services throughout 
+              We provide professional window cleaning and soft washing services throughout 
               Starkville, MS, and the greater Oktibbeha County area, including Columbus, 
               West Point, Louisville, and surrounding communities.
             </p>
