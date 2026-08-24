@@ -63,11 +63,6 @@ const Footer = () => {
                   House Washing
                 </Link>
               </li>
-              <li>
-                <Link to="/services#pressure-washing" className="text-primary-foreground/80 hover:text-accent transition-colors">
-                  Pressure Washing
-                </Link>
-              </li>
             </ul>
           </div>
 
