@@ -6,7 +6,6 @@ import CTASection from "@/components/CTASection";
 import { Check, Droplets, Home, Sparkles, Shield, Leaf, Zap } from "lucide-react";
 import windowImage from "@/assets/window-cleaning.jpg";
 import houseImage from "@/assets/house-washing.jpg";
-import pressureImage from "@/assets/pressure-washing.jpg";
 
 const Services = () => {
   const location = useLocation();
@@ -215,7 +214,7 @@ const Services = () => {
                     "Brick & stone washing",
                     "Algae & moss removal",
                     "Dirt & grime removal",
-                    "Safe pressure techniques",
+                    "Gentle soft wash methods",
                     "Curb appeal restoration",
                   ].map((item) => (
                     <li key={item} className="flex items-center gap-2 text-foreground">
@@ -248,7 +247,7 @@ const Services = () => {
               Proudly Serving Starkville & Surrounding Areas
             </h3>
             <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              We provide professional window cleaning, house washing, and pressure washing services throughout 
+              We provide professional window cleaning and soft washing services throughout 
               Starkville, MS, and the greater Oktibbeha County area, including Columbus, 
               West Point, Louisville, and surrounding communities.
             </p>
