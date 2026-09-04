@@ -10,14 +10,14 @@ const services = [
     description:
       "Crystal-clear, streak-free windows that let the sunshine in. We use eco-friendly solutions safe for your family and pets.",
     image: windowImage,
-    features: ["Streak-free guarantee", "Eco-friendly solutions", "Interior & exterior"],
+    features: ["Includes cleaning screens and window tracks"],
   },
   {
     title: "House Washing",
     description:
       "Restore your home's curb appeal with professional soft washing. We safely remove dirt, mold, mildew, and algae.",
     image: houseImage,
-    features: ["Vinyl & brick safe", "Mold & mildew removal", "Curb appeal boost"],
+    features: ["Vinyl & brick safe", "Mold & mildew removal", "Curb appeal restoration"],
   },
 ];
 

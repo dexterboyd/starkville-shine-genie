@@ -3,9 +3,10 @@ import { useLocation } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
-import { Check, Droplets, Home, Sparkles, Shield, Leaf, Zap } from "lucide-react";
+import { Check, Home, Sparkles, Shield } from "lucide-react";
 import windowImage from "@/assets/window-cleaning.jpg";
 import houseImage from "@/assets/house-washing.jpg";
+import heroImage from "@/assets/hero-window.jpg";
 
 const Services = () => {
   const location = useLocation();
