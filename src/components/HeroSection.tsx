@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
@@ -22,14 +21,8 @@ const HeroSection = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10 py-20">
         <div className="max-w-3xl mx-auto text-center">
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-accent/20 backdrop-blur-sm text-accent px-4 py-2 rounded-full mb-6 animate-fade-up">
-            <Sparkles className="w-4 h-4" />
-            <span className="text-sm font-medium">Starkville's Trusted Local Pros</span>
-          </div>
-
           {/* Headline */}
-          <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl text-primary-foreground leading-tight mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
+          <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl text-primary-foreground leading-tight mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
             Crystal Clear Windows.{" "}
             <span className="text-accent block">Spotless Exteriors.</span>
           </h1>

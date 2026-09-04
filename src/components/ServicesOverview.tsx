@@ -8,7 +8,7 @@ const services = [
   {
     title: "Window Cleaning",
     description:
-      "Crystal-clear, streak-free windows that let the sunshine in. We use eco-friendly solutions safe for your family and pets.",
+      "Crystal-clear windows that let the sunshine in. We use solutions safe for your family and pets.",
     image: windowImage,
     features: ["Includes cleaning screens and window tracks"],
   },
