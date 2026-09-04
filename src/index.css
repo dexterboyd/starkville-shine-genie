@@ -54,7 +54,7 @@
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(215 65% 25%) 0%, hsl(215 55% 35%) 50%, hsl(200 85% 55%) 100%);
     --gradient-gold: linear-gradient(135deg, hsl(42 92% 50%) 0%, hsl(42 90% 60%) 100%);
-    --gradient-overlay: linear-gradient(180deg, hsla(215, 50%, 40%, 0.6) 0%, hsla(215, 50%, 45%, 0.45) 100%);
+    --gradient-overlay: linear-gradient(180deg, hsla(215, 55%, 22%, 0.65) 0%, hsla(215, 50%, 35%, 0.55) 50%, hsla(215, 45%, 45%, 0.4) 100%);
 
     /* Shadows */
     --shadow-soft: 0 4px 20px -4px hsla(215, 65%, 25%, 0.12);
@@ -171,7 +171,7 @@
   }
 
   .text-shadow-hero {
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 4px 12px rgba(0, 0, 0, 0.35);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6), 0 6px 18px rgba(0, 0, 0, 0.45), 0 12px 32px rgba(0, 0, 0, 0.3);
   }
 
   @keyframes fadeUp {
