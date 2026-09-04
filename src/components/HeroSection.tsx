@@ -1,17 +1,20 @@
 import { Link } from "react-router-dom";
-import { Sparkles, Clock } from "lucide-react";
+import { Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-window.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center pt-20">
-      {/* Background Image */}
+    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+      {/* Background Video */}
       <div className="absolute inset-0 z-0">
-        <img
-          src={heroImage}
-          alt="Professional window cleaning"
-          className="w-full h-full object-cover"
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          src="https://video.wixstatic.com/video/84770f_0512b95c6bd44398a825e832e08a47a5/1080p/mp4/file.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
         />
         <div className="absolute inset-0 bg-overlay-gradient" />
       </div>
@@ -33,13 +36,13 @@ const HeroSection = () => {
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 leading-relaxed animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Professional window cleaning and house washing services for homeowners and businesses.
+            Professional window cleaning and house washing services for homeowners and small businesses.
             <br className="hidden md:block" />
             Experience the difference that attention to detail makes.
           </p>
 
           {/* CTA */}
-          <div className="mb-12 animate-fade-up" style={{ animationDelay: "0.3s" }}>
+          <div className="animate-fade-up" style={{ animationDelay: "0.3s" }}>
             <Button
               asChild
               size="lg"
@@ -47,24 +50,6 @@ const HeroSection = () => {
             >
               <Link to="/services">View Our Services</Link>
             </Button>
-          </div>
-
-          {/* Trust Badges */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-8 animate-fade-up" style={{ animationDelay: "0.4s" }}>
-            <div className="flex items-center gap-3 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-6 py-3">
-              <Sparkles className="w-5 h-5 text-accent" />
-              <div className="text-left">
-                <p className="font-semibold text-primary-foreground text-sm">Streak-Free</p>
-                <p className="text-xs text-primary-foreground/70">Guaranteed results</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-3 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-6 py-3">
-              <Clock className="w-5 h-5 text-accent" />
-              <div className="text-left">
-                <p className="font-semibold text-primary-foreground text-sm">Same Week</p>
-                <p className="text-xs text-primary-foreground/70">Fast scheduling</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
