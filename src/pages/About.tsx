@@ -18,12 +18,12 @@ const About = () => {
                </span>
               <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
                 Your Local{" "}
-                <span className="text-accent">Starkville</span>{" "}
-                Cleaning Experts
+                <span className="text-accent">Cleaning</span>{" "}
+                Experts
               </h1>
               <p className="text-xl text-primary-foreground/90 leading-relaxed">
                 We're more than just a cleaning company—we're your neighbors, 
-                committed to helping Starkville homes shine.
+                committed to helping homes shine.
               </p>
             </div>
           </div>
@@ -41,7 +41,7 @@ const About = () => {
                   </span>
                   <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                     Pressure Pros Exterior Cleaning Solutions was founded with a simple mission: 
-                    to provide Starkville homeowners with honest, reliable, and professional 
+                    to provide homeowners with honest, reliable, and professional 
                     exterior cleaning services they can trust.
                   </p>
                   <p className="text-muted-foreground text-lg leading-relaxed">
