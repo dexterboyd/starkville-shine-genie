@@ -20,7 +20,7 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10 py-20">
-        <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-3xl mx-auto text-center bg-primary/25 backdrop-blur-sm rounded-2xl px-6 py-10 md:px-10 md:py-12 border border-white/10 shadow-elevated">
           {/* Headline */}
           <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl text-primary-foreground leading-tight mb-6 animate-fade-up text-shadow-hero" style={{ animationDelay: "0.1s" }}>
             Crystal Clear Windows.{" "}
