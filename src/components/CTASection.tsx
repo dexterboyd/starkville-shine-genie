@@ -1,4 +1,4 @@
-import { Phone, Calendar, Sparkles } from "lucide-react";
+import { Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const CTASection = () => {
@@ -17,7 +17,7 @@ const CTASection = () => {
           </h2>
 
           <p className="text-xl text-primary-foreground/90 mb-2 max-w-2xl mx-auto">
-            Contact us today for your Starkville home or business.
+            Contact us today for your home or business.
           </p>
           <p className="text-xl text-primary-foreground/90 mb-10 max-w-2xl mx-auto">
             Our friendly team is ready to help you see the difference.
@@ -32,17 +32,6 @@ const CTASection = () => {
               <a href="tel:+16622420663">
                 <Phone className="w-5 h-5 mr-2" />
                 Call (662) 242-0663
-              </a>
-            </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="border-2 border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 backdrop-blur-sm text-lg px-8 py-6"
-            >
-              <a href="mailto:info@pressureprosms.com">
-                <Calendar className="w-5 h-5 mr-2" />
-                Contact Us Online
               </a>
             </Button>
           </div>
