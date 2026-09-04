@@ -10,7 +10,11 @@ const services = [
     description:
       "Crystal-clear windows that let the sunshine in. We use solutions safe for your family and pets.",
     image: windowImage,
-    features: ["Includes cleaning screens and window tracks"],
+    features: [
+      "Includes cleaning screens and window tracks",
+      "Hard water stain removal",
+      "Skylight & storm window cleaning",
+    ],
   },
   {
     title: "House Washing",

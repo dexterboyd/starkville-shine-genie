@@ -226,20 +226,6 @@ const Services = () => {
         </section>
 
 
-        {/* Service Areas */}
-        <section className="py-10 bg-card border-y border-border">
-          <div className="container mx-auto px-4 text-center">
-            <h3 className="font-heading text-2xl text-foreground mb-3">
-              Proudly Serving Starkville & Surrounding Areas
-            </h3>
-            <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              We provide professional window cleaning and soft washing services throughout 
-              Starkville, MS, and the greater Oktibbeha County area, including Columbus, 
-              West Point, Louisville, and surrounding communities.
-            </p>
-          </div>
-        </section>
-
         <PricingSection />
         <CTASection />
       </main>
