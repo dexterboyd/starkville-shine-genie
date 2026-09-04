@@ -44,7 +44,7 @@ const Services = () => {
               </h1>
               <p className="text-xl text-primary-foreground/90 leading-relaxed">
                 From crystal-clear windows to spotless siding, Pressure Pros delivers 
-                exceptional results for homeowners and businesses.
+                exceptional results for homeowners and small businesses.
               </p>
             </div>
           </div>
@@ -65,8 +65,8 @@ const Services = () => {
                 </h2>
                 <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
                   Let the sunshine in with our professional window cleaning services. 
-                  We deliver streak-free, crystal-clear results that make your home shine. 
-                  Our eco-friendly solutions are safe for your family, pets, and landscaping.
+                  We deliver crystal-clear results that make your home shine. 
+                  Our solutions are safe for your family, pets, and landscaping.
                 </p>
 
                 <div className="space-y-3 mb-6">
