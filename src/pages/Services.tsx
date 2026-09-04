@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
+import PricingSection from "@/components/PricingSection";
 import { Check, Home, Sparkles, Shield } from "lucide-react";
 import windowImage from "@/assets/window-cleaning.jpg";
 import houseImage from "@/assets/house-washing.jpg";
@@ -239,6 +240,7 @@ const Services = () => {
           </div>
         </section>
 
+        <PricingSection />
         <CTASection />
       </main>
       <Footer />
