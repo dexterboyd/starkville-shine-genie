@@ -53,7 +53,7 @@ const PricingSection = () => {
               <p className="text-muted-foreground mb-6">{plan.description}</p>
 
               <div className="mb-6">
-                <span className="text-muted-foreground mr-2">{plan.period}</span>
+                <span className="text-muted-foreground font-bold mr-2">Starting at</span>
                 <span className="font-heading text-4xl md:text-5xl text-foreground">
                   {plan.price}
                 </span>
