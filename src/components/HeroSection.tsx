@@ -23,8 +23,8 @@ const HeroSection = () => {
         <div className="max-w-3xl mx-auto text-center">
           {/* Headline */}
           <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl text-primary-foreground leading-tight mb-6 animate-fade-up text-shadow-hero" style={{ animationDelay: "0.1s" }}>
-            Crystal Clear Windows.{" "}
-            <span className="text-accent block">Spotless Exteriors.</span>
+            Window Cleaning &amp; House Washing in{" "}
+            <span className="text-accent block">Starkville, MS</span>
           </h1>
 
           {/* Subheadline */}
