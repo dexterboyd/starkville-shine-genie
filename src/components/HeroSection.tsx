@@ -23,14 +23,11 @@ const HeroSection = () => {
         <div className="max-w-3xl mx-auto text-center">
           {/* Headline */}
           <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl text-primary-foreground leading-tight mb-6 animate-fade-up text-shadow-hero" style={{ animationDelay: "0.1s" }}>
-            Window Cleaning &amp; House Washing in{" "}
-            <span className="text-accent block">Starkville, MS</span>
+            Professional Window Cleaning & House Washing Services
           </h1>
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 leading-relaxed animate-fade-up text-shadow-hero" style={{ animationDelay: "0.2s" }}>
-            Professional window cleaning and house washing services for homeowners and small businesses.
-            <br className="hidden md:block" />
             Experience the difference that attention to detail makes.
           </p>
 
