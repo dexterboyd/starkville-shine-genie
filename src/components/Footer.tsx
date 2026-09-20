@@ -21,7 +21,7 @@ const Footer = () => {
                 </span>
               </div>
             </Link>
-            <p className="text-primary-foreground/80 text-sm leading-relaxed">
+            <p className="text-primary-foreground/80 text-sm leading-relaxed max-w-sm break-words">
               Starkville's trusted local window cleaning and house washing professionals. 
               Proudly serving the Mississippi State community since day one.
             </p>
@@ -30,7 +30,7 @@ const Footer = () => {
           {/* Contact */}
           <div>
             <h4 className="font-heading font-semibold text-lg mb-6">Contact Us</h4>
-            <ul className="space-y-4">
+            <ul className="space-y-5">
               <li>
                 <a
                   href="tel:+16622420663"
