@@ -27,18 +27,8 @@ const services = [
 
 const ServicesOverview = () => {
   return (
-    <section className="pt-8 pb-16 bg-background">
+    <section className="pt-4 pb-12 bg-background">
       <div className="container mx-auto px-4">
-        {/* Section Header */}
-        <div className="text-center max-w-2xl mx-auto mb-12">
-          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl text-foreground mb-4">
-            Our Services
-          </h2>
-          <p className="text-muted-foreground text-lg">
-            From sparkling windows to spotless siding, we have you covered.
-          </p>
-        </div>
-
         {/* Services Grid */}
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
           {services.map((service) => (
