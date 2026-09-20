@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
-          <div className="md:col-span-2">
+          <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center">
                 <Droplets className="w-7 h-7 text-accent-foreground" />
@@ -21,16 +21,55 @@ const Footer = () => {
                 </span>
               </div>
             </Link>
-            <p className="text-primary-foreground/80 text-sm leading-relaxed max-w-sm break-words">
+            <p className="text-primary-foreground/80 text-sm leading-relaxed">
               Starkville's trusted local window cleaning and house washing professionals. 
               Proudly serving the Mississippi State community since day one.
             </p>
           </div>
 
+          {/* Quick Links */}
+          <div>
+            <h4 className="font-heading font-semibold text-lg mb-6">Quick Links</h4>
+            <ul className="space-y-3">
+              <li>
+                <Link to="/" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to="/services" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  Our Services
+                </Link>
+              </li>
+              <li>
+                <Link to="/about" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  About Us
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Services */}
+          <div>
+            <h4 className="font-heading font-semibold text-lg mb-6">Our Services</h4>
+            <ul className="space-y-3">
+              <li>
+                <Link to="/services#window-cleaning" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  Window Cleaning
+                </Link>
+              </li>
+              <li>
+                <Link to="/services#house-washing" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  House Washing
+                </Link>
+              </li>
+            </ul>
+          </div>
+
           {/* Contact */}
           <div>
             <h4 className="font-heading font-semibold text-lg mb-6">Contact Us</h4>
-            <ul className="space-y-5">
+            <ul className="space-y-4">
               <li>
                 <a
                   href="tel:+16622420663"
