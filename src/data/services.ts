@@ -8,8 +8,8 @@ export interface Service {
   description: string;
   h1: string;
   intro: string;
-  image: string;
-  alt: string;
+  image?: string;
+  alt?: string;
   price?: string;
   sections: { h2: string; paragraphs: string[]; bullets?: string[] }[];
   faqs: { q: string; a: string }[];
@@ -122,8 +122,6 @@ export const services: Service[] = [
     h1: "Gutter Cleaning in Starkville, MS",
     intro:
       "We clear leaves, pine straw and packed debris from gutters and flush every downspout so rainwater drains away from your home.",
-    image: houseImage,
-    alt: "Clean gutters and roofline on a Starkville home after gutter cleaning",
     sections: [
       {
         h2: "Why gutters clog so quickly here",

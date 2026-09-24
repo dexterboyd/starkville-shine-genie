@@ -29,7 +29,7 @@ const ServicePage = ({ slug }: { slug: string }) => {
     <PageLayout h1={s.h1} intro={s.intro}>
       <Seo title={s.title} description={s.description} path={`/${s.slug}`} schema={schema} />
       <Prose>
-        <img src={s.image} alt={s.alt} loading="lazy" className="w-full h-72 object-cover rounded-2xl" />
+        {s.image && <img src={s.image} alt={s.alt} loading="lazy" className="w-full h-72 object-cover rounded-2xl" />}
         {s.price && (
           <p className="text-foreground text-lg">
             <strong className="uppercase">Starting at</strong> {s.price}
