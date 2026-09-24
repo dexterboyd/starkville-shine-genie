@@ -62,7 +62,7 @@ const About = () => {
                         <Users className="w-6 h-6 text-primary-foreground" />
                       </div>
                       <div>
-                        <h4 className="font-heading font-semibold text-foreground">Community First</h4>
+                        <p className="font-heading font-semibold text-foreground">Community First</p>
                         <p className="text-muted-foreground text-sm">Serving our neighbors</p>
                       </div>
                     </div>
@@ -71,7 +71,7 @@ const About = () => {
                         <MapPin className="w-6 h-6 text-primary-foreground" />
                       </div>
                       <div>
-                        <h4 className="font-heading font-semibold text-foreground">Locally Owned</h4>
+                        <p className="font-heading font-semibold text-foreground">Locally Owned</p>
                         <p className="text-muted-foreground text-sm">Starkville, Mississippi</p>
                       </div>
                     </div>

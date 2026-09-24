@@ -29,7 +29,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-heading font-semibold text-lg mb-6">Quick Links</h4>
+            <p className="font-heading font-semibold text-lg mb-6">Quick Links</p>
             <ul className="space-y-3">
               <li>
                 <Link to="/" className="text-primary-foreground/80 hover:text-accent transition-colors">
@@ -56,7 +56,7 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="font-heading font-semibold text-lg mb-6">Our Services</h4>
+            <p className="font-heading font-semibold text-lg mb-6">Our Services</p>
             <ul className="space-y-3">
               <li>
                 <Link to="/window-cleaning/" className="text-primary-foreground/80 hover:text-accent transition-colors">
@@ -78,7 +78,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h4 className="font-heading font-semibold text-lg mb-6">Contact Us</h4>
+            <p className="font-heading font-semibold text-lg mb-6">Contact Us</p>
             <ul className="space-y-4">
               <li>
                 <a
