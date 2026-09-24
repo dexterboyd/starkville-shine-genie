@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Phone, Droplets } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Menu, X, Phone } from "lucide-react";
+import logoAsset from "@/assets/pressure-pros-logo.jpg.asset.json";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,18 +24,20 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center group-hover:scale-105 transition-transform">
-              <Droplets className="w-7 h-7 text-primary-foreground" />
-            </div>
-            <div className="flex flex-col">
-              <span className="font-heading font-bold text-lg text-foreground leading-tight">
-                Pressure Pros
-              </span>
-              <span className="text-xs text-muted-foreground">
-                Exterior Cleaning Solutions
-              </span>
-            </div>
+          <Link
+            to="/"
+            className="flex items-center group"
+            aria-label="Pressure Pros Exterior Cleaning Solutions home"
+          >
+            <img
+              src={logoAsset.url}
+              alt="Pressure Pros Exterior Cleaning Solutions"
+              width="225"
+              height="225"
+              className="h-16 w-16 object-contain transition-transform group-hover:scale-105"
+              loading="eager"
+              decoding="async"
+            />
           </Link>
 
           {/* Desktop Navigation */}
