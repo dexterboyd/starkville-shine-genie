@@ -41,7 +41,7 @@ const HeroSection = () => {
               size="lg"
               className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-button text-lg px-10 py-6 font-semibold"
             >
-              <Link to="/services">View Our Services</Link>
+              <Link to="/window-cleaning">View Our Services</Link>
             </Button>
           </div>
         </div>

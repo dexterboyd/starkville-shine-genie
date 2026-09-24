@@ -1,11 +1,15 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
+import Seo from "@/components/Seo";
+import { Link } from "react-router-dom";
+import { Prose } from "@/components/PageLayout";
 import { MapPin, Heart, Users } from "lucide-react";
 
 const About = () => {
   return (
     <div className="min-h-screen">
+      <Seo title="About Pressure Pros | Exterior Cleaning in Starkville, MS" description="Meet Pressure Pros, the locally owned window cleaning, soft washing and gutter cleaning company based in Starkville, MS. Call 662-242-0663." path="/about" />
       <Navbar />
       <main>
         {/* Hero Section */}
@@ -79,6 +83,27 @@ const About = () => {
           </div>
         </section>
 
+        <Prose>
+          <h2>How we work</h2>
+          <p>
+            Pressure Pros started with a simple idea: exterior cleaning should be honest, careful and done right the
+            first time. We show up when we say we will, give you a clear price before we start, and treat your home the
+            way we'd want our own treated. We protect your landscaping, rinse our work carefully, and don't leave until
+            the job looks finished. We are a small, local team, so the person you talk to on the phone is part of the crew that shows up at your door, and we stand behind every job we do.
+          </p>
+          <p>
+            We chose our methods for North Mississippi conditions. Soft washing clears mildew, algae and red clay stains
+            without the damage high pressure can cause. Window cleaning always includes screens and tracks. Gutter
+            cleaning includes flushing every downspout so water drains away from your home.
+          </p>
+          <h3>Our services and service area</h3>
+          <p>
+            We offer <Link to="/window-cleaning">window cleaning</Link>,{" "}
+            <Link to="/house-washing">house washing and soft washing</Link> and{" "}
+            <Link to="/gutter-cleaning">gutter cleaning</Link> in Starkville, Columbus, West Point, Mississippi State and
+            Louisville. See our <Link to="/service-area">service area</Link> or <Link to="/contact">contact us</Link>.
+          </p>
+        </Prose>
         <CTASection />
       </main>
       <Footer />
