@@ -32,6 +32,10 @@ const Index = () => {
             and red clay stains from vinyl, brick and painted siding. <Link to="/gutter-cleaning">Gutter cleaning</Link>{" "}
             removes pine straw and leaves so rainwater drains away from your home instead of spilling onto it.
           </p>
+          <p>
+            Every job is done by our own local team, and we give you a clear price before any work starts. We'll call or
+            text when we're on the way and again when we're finished.
+          </p>
           <h3>Towns we serve</h3>
           <p>
             We work in <Link to="/starkville-ms">Starkville</Link>, <Link to="/columbus-ms">Columbus</Link>,{" "}

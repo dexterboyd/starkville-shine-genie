@@ -47,6 +47,11 @@ const Contact = () => (
         ))}
         . See the full <Link to="/service-area">service area</Link> page for details.
       </p>
+      <h3>When is the best time to book?</h3>
+      <p>
+        Spring and fall are our busiest seasons. Windows and siding look best after the spring pollen has settled, and
+        gutters are best cleaned once the leaves are down in late fall. Calling a week or two ahead helps us fit you in.
+      </p>
       <h3>Do I need to be home?</h3>
       <p>
         No. All of our work happens outside, so you don't need to be home. Just leave gates unlocked and an outdoor water

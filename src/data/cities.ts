@@ -39,6 +39,7 @@ export const cities: City[] = [
           "Clean storefront glass matters for restaurants, boutiques and offices in downtown Starkville and along the Highway 12 corridor. We offer regular window cleaning so your front windows stay clear for customers all year.",
         ],
       },
+      { h2: "Scheduling tips for Starkville", paragraphs: ['Starkville homeowners often ask when to schedule. Late April, after the heaviest pine pollen has fallen, is ideal for window cleaning and house washing. November is the best time for gutter cleaning, once the oaks and sweetgums have dropped their leaves.'] },
     ],
   },
   {
@@ -71,6 +72,7 @@ export const cities: City[] = [
           "We work with homeowners, military families near Columbus Air Force Base getting a home ready to sell or rent, and small businesses downtown that want spotless storefront windows. Call us and we'll set up a time that works for you.",
         ],
       },
+      { h2: "Scheduling tips for Columbus", paragraphs: ['Columbus homeowners preparing for the spring Pilgrimage home tours often book house washing and window cleaning a few weeks ahead so porches, columns and tall windows look their best for visitors.'] },
     ],
   },
   {
@@ -103,6 +105,7 @@ export const cities: City[] = [
           "Spring storms in Clay County can drop a lot of rain quickly. Gutters packed with leaves and seed pods overflow, splash clay onto siding and soak foundations. Scheduling gutter cleaning in late winter or early spring helps your home handle heavy rain.",
         ],
       },
+      { h2: "Scheduling tips for West Point", paragraphs: ['Because many West Point homes have wide porches and metal roofs, we also rinse porch ceilings and railings during house washing, where spiders, pollen and wasp nests tend to collect.'] },
     ],
   },
   {
@@ -135,6 +138,7 @@ export const cities: City[] = [
           "Tailgate season also means extra dust and traffic. A quick exterior window cleaning after the season wraps up keeps your glass clear through winter.",
         ],
       },
+      { h2: "Scheduling tips for Mississippi State", paragraphs: ['Property managers who handle several rentals near campus can set up a recurring schedule with us, so every unit gets windows, siding and gutters cleaned before each fall semester without extra phone calls.'] },
     ],
   },
   {
@@ -167,6 +171,7 @@ export const cities: City[] = [
           "We also clean storefront windows for businesses around the Louisville square. Clean glass helps customers see your displays and tells them you care about your business.",
         ],
       },
+      { h2: "Scheduling tips for Louisville", paragraphs: ['Many Louisville customers call us after spring storms, when broken limbs and pine straw clog gutters and wind-blown debris sticks to windows. We can clear the gutters, wash the siding and clean the glass in a single visit, so you only have to schedule once. Homeowners who live farther out in Winston County can also group their service with neighbors to make scheduling easier.'] },
     ],
   },
 ];
