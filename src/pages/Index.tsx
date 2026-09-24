@@ -11,7 +11,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Seo
-        title="Exterior cleaning services in Starkville, MS | Pressure Pros"
+        title="Pressure Pros | Window Cleaning & House Washing in Starkville, MS"
         description="Window cleaning, house washing, soft washing and gutter cleaning in Starkville, MS and nearby towns. Call Pressure Pros at 662-242-0663."
         path="/"
         schema={{
