@@ -14,7 +14,7 @@ const ServicePage = ({ slug }: { slug: string }) => {
       name: s.name,
       serviceType: s.name,
       url: `${SITE_URL}/${s.slug}`,
-      provider: { "@type": "HomeAndConstructionBusiness", name: "Pressure Pros", telephone: "+1-662-242-0663", url: SITE_URL },
+      provider: { "@type": "HomeAndConstructionBusiness", name: "Pressure Pros Exterior Cleaning Solutions", telephone: "+1-662-242-0663", url: SITE_URL },
       areaServed: SERVICE_AREA.map((n) => ({ "@type": "City", name: `${n}, MS` })),
       ...(s.price && { offers: { "@type": "Offer", price: s.price.replace("$", ""), priceCurrency: "USD" } }),
     },
@@ -71,7 +71,7 @@ const ServicePage = ({ slug }: { slug: string }) => {
 
         <h2>Where we offer {s.name.toLowerCase()}</h2>
         <p>
-          Pressure Pros offers {s.name.toLowerCase()} in{" "}
+          Pressure Pros Exterior Cleaning Solutions offers {s.name.toLowerCase()} in{" "}
           {cities.map((c, i) => (
             <span key={c.slug}>
               <Link to={`/${c.slug}/`}>{c.name}</Link>

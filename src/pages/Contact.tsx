@@ -7,7 +7,7 @@ import { services } from "@/data/services";
 
 const Contact = () => (
   <PageLayout
-    h1="Contact Pressure Pros in Starkville, MS"
+    h1="Contact Pressure Pros Exterior Cleaning Solutions in Starkville, MS"
     intro="Call or email us to schedule window cleaning, house washing, soft washing or gutter cleaning anywhere in our service area."
   >
     <Seo

@@ -25,6 +25,9 @@ const Footer = () => {
               Starkville's trusted local window cleaning and house washing professionals. 
               Proudly serving the Mississippi State community since day one.
             </p>
+            <p className="text-primary-foreground/80 text-sm leading-relaxed mt-3">
+              Serving Starkville, MS since 2015.
+            </p>
           </div>
 
           {/* Quick Links */}

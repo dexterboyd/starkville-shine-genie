@@ -7,7 +7,7 @@ import { services } from "@/data/services";
 const ServiceArea = () => (
   <PageLayout
     h1="Exterior Cleaning Service Area Around Starkville, MS"
-    intro="Pressure Pros serves Starkville, Columbus, West Point, Mississippi State and Louisville with window cleaning, house washing, soft washing and gutter cleaning."
+    intro="Pressure Pros Exterior Cleaning Solutions serves Starkville, Columbus, West Point, Mississippi State and Louisville with window cleaning, house washing, soft washing and gutter cleaning."
   >
     <Seo
       title="Service Area: Starkville & Golden Triangle | Pressure Pros"

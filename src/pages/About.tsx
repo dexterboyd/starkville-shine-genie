@@ -45,7 +45,7 @@ const About = () => {
                   <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                     Pressure Pros Exterior Cleaning Solutions was founded with a simple mission: 
                     to provide homeowners with honest, reliable, and professional 
-                    exterior cleaning services they can trust.
+                    exterior cleaning services they can trust. Serving Starkville, MS since 2015.
                   </p>
                   <p className="text-muted-foreground text-lg leading-relaxed">
                     As a locally owned and operated business, we understand what makes our 
@@ -85,7 +85,7 @@ const About = () => {
         <Prose>
           <h2>How we work</h2>
           <p>
-            Pressure Pros started with a simple idea: exterior cleaning should be honest, careful and done right the
+            Pressure Pros Exterior Cleaning Solutions started with a simple idea: exterior cleaning should be honest, careful and done right the
             first time. We show up when we say we will, give you a clear price before we start, and treat your home the
             way we'd want our own treated. We protect your landscaping, rinse our work carefully, and don't leave until
             the job looks finished. We are a small, local team, so the person you talk to on the phone is part of the crew that shows up at your door, and we stand behind every job we do.
