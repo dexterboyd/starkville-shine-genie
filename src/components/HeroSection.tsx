@@ -41,7 +41,12 @@ const HeroSection = () => {
               size="lg"
               className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-button text-lg px-10 py-6 font-semibold"
             >
-              <Link to="/window-cleaning/">View Our Services</Link>
+<Link to="/window-cleaning/">
+                View Our Services
+                <span className="sr-only">
+                  : window cleaning, house washing and gutter cleaning in Starkville, MS
+                </span>
+              </Link>
             </Button>
           </div>
         </div>
