@@ -1,5 +1,7 @@
-import windowImage from "@/assets/window-cleaning.jpg";
-import houseImage from "@/assets/house-washing.jpg";
+import windowImage from "@/assets/window-cleaning-800.webp";
+import windowImageSmall from "@/assets/window-cleaning-480.webp";
+import houseImage from "@/assets/house-washing-800.webp";
+import houseImageSmall from "@/assets/house-washing-480.webp";
 
 export interface Service {
   slug: string;
@@ -9,6 +11,7 @@ export interface Service {
   h1: string;
   intro: string;
   image?: string;
+  imageSmall?: string;
   alt?: string;
   price?: string;
   sections: { h2: string; paragraphs: string[]; bullets?: string[] }[];
@@ -26,6 +29,7 @@ export const services: Service[] = [
     intro:
       "Clear, bright windows for homes and small businesses across Starkville and the Golden Triangle, with screens and tracks cleaned as part of every job.",
     image: windowImage,
+    imageSmall: windowImageSmall,
     alt: "Pressure Pros technician cleaning exterior windows on a Starkville home",
     price: "$99",
     sections: [
@@ -74,6 +78,7 @@ export const services: Service[] = [
     intro:
       "Low-pressure soft washing that safely removes mildew, green algae, pollen and red clay staining from vinyl, brick, stucco and painted siding.",
     image: houseImage,
+    imageSmall: houseImageSmall,
     alt: "Soft washing vinyl siding on a Starkville home to remove green algae and mildew",
     price: "$150",
     sections: [

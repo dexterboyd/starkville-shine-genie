@@ -13,7 +13,7 @@ const HeroSection = () => {
           muted
           loop
           playsInline
-          preload="auto"
+          preload="metadata"
         />
         <div className="absolute inset-0 bg-overlay-gradient" />
       </div>
@@ -22,20 +22,20 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 relative z-10 py-20">
         <div className="max-w-3xl mx-auto text-center">
           {/* Headline */}
-          <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl text-primary-foreground leading-tight mb-6 animate-fade-up text-shadow-hero" style={{ animationDelay: "0.1s" }}>
+          <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl text-primary-foreground leading-tight mb-6 text-shadow-hero">
             Window Cleaning &amp; House Washing in{" "}
             <span className="text-accent block">Starkville, MS</span>
           </h1>
 
           {/* Subheadline */}
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 leading-relaxed animate-fade-up text-shadow-hero" style={{ animationDelay: "0.2s" }}>
+          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 leading-relaxed text-shadow-hero">
             Professional window cleaning and house washing services for homeowners and small businesses.
             <br className="hidden md:block" />
             Experience the difference that attention to detail makes.
           </p>
 
           {/* CTA */}
-          <div className="animate-fade-up" style={{ animationDelay: "0.3s" }}>
+          <div>
             <Button
               asChild
               size="lg"

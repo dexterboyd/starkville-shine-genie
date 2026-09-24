@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import windowImage from "@/assets/window-cleaning.jpg";
-import houseImage from "@/assets/house-washing.jpg";
+import windowImage from "@/assets/window-cleaning-800.webp";
+import windowImageSmall from "@/assets/window-cleaning-480.webp";
+import houseImage from "@/assets/house-washing-800.webp";
+import houseImageSmall from "@/assets/house-washing-480.webp";
 
 const services = [
   {
@@ -10,6 +12,7 @@ const services = [
     description:
       "Crystal-clear windows that let the sunshine in. We use solutions safe for your family and pets.",
     image: windowImage,
+    imageSmall: windowImageSmall,
     features: [
       "Includes cleaning screens and window tracks",
       "Hard water stain removal",
@@ -21,6 +24,7 @@ const services = [
     description:
       "Restore your home's curb appeal with professional soft washing. We safely remove dirt, mold, mildew, and algae.",
     image: houseImage,
+    imageSmall: houseImageSmall,
     features: ["Vinyl & brick safe", "Mold & mildew removal", "Curb appeal restoration"],
   },
 ];
@@ -50,7 +54,13 @@ const ServicesOverview = () => {
               <div className="relative h-64 overflow-hidden">
                 <img
                   src={service.image}
+                  srcSet={`${service.imageSmall} 480w, ${service.image} 800w`}
+                  sizes="(max-width: 767px) calc(100vw - 2rem), 50vw"
                   alt={`${service.title} service in Starkville, MS`}
+                  width="800"
+                  height="800"
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>

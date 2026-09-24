@@ -3,7 +3,8 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App.tsx";
 import "./index.css";
 
-const container = document.getElementById("root")!;
+const container = document.getElementById("root");
+if (!container) throw new Error("Root element is missing");
 const app = <App router={(children) => <BrowserRouter>{children}</BrowserRouter>} />;
 
 // Hydrate only when the pre-rendered HTML was built for this exact path.
