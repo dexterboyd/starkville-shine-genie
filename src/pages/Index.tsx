@@ -14,6 +14,21 @@ const Index = () => {
         title="Exterior cleaning services in Starkville, MS | Pressure Pros"
         description="Window cleaning, house washing, soft washing and gutter cleaning in Starkville, MS and nearby towns. Call Pressure Pros at 662-242-0663."
         path="/"
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          name: "Pressure Pros Window Cleaning & House Washing",
+          telephone: "+1-662-242-0663",
+          url: "https://www.pressureproscleaningsolutions.com",
+          image: "https://www.pressureproscleaningsolutions.com/og-image.png",
+          description:
+            "Locally owned window cleaning, house washing, soft washing and gutter cleaning serving Starkville, Columbus, West Point, Mississippi State and Louisville, MS.",
+          priceRange: "$$",
+          areaServed: ["Starkville", "Columbus", "West Point", "Mississippi State", "Louisville"].map((c) => ({
+            "@type": "City",
+            name: `${c}, MS`,
+          })),
+        }}
       />
       <Navbar />
       <main>
