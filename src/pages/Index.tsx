@@ -24,6 +24,20 @@ const Index = () => {
           description:
             "Locally owned window cleaning, house washing, soft washing and gutter cleaning serving Starkville, Columbus, West Point, Mississippi State and Louisville, MS.",
           priceRange: "$$",
+          openingHoursSpecification: [
+            {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              opens: "07:00",
+              closes: "17:00",
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: "Saturday",
+              opens: "07:00",
+              closes: "12:30",
+            },
+          ],
           areaServed: ["Starkville", "Columbus", "West Point", "Mississippi State", "Louisville"].map((c) => ({
             "@type": "City",
             name: `${c}, MS`,
