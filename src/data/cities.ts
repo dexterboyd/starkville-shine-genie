@@ -12,10 +12,10 @@ export const cities: City[] = [
   {
     slug: "starkville-ms",
     name: "Starkville",
-    title: "Exterior cleaning services in Starkville, MS | Pressure Pros",
+    title: "Exterior Cleaning & Soft Washing in Starkville, MS | Pressure Pros",
     description:
-      "Window cleaning, house washing, soft washing and gutter cleaning in Starkville, MS. Locally based. Call Pressure Pros at 662-242-0663.",
-    h1: "Window Cleaning & House Washing in Starkville, MS",
+      "Starkville neighborhoods cleaned by a local team: soft washing for pollen, mildew and red clay, plus windows and gutters. Call 662-242-0663.",
+    h1: "Exterior Cleaning & Soft Washing in Starkville, MS",
     intro:
       "Starkville is our home base. We clean windows, siding and gutters for homes and small businesses all over town.",
     sections: [

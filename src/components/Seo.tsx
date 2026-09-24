@@ -24,8 +24,12 @@ const Seo = ({ title, description, path, schema }: SeoProps) => {
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={url} />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content={`${SITE_URL}/og-image.png`} />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={`${SITE_URL}/og-image.png`} />
       {schemas.map((s, i) => (
         <script key={i} type="application/ld+json">
           {JSON.stringify(s)}
