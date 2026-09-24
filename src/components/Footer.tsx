@@ -37,8 +37,13 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="text-primary-foreground/80 hover:text-accent transition-colors">
-                  Our Services
+                <Link to="/service-area" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  Service Area
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  Contact
                 </Link>
               </li>
               <li>
@@ -54,13 +59,18 @@ const Footer = () => {
             <h4 className="font-heading font-semibold text-lg mb-6">Our Services</h4>
             <ul className="space-y-3">
               <li>
-                <Link to="/services#window-cleaning" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                <Link to="/window-cleaning" className="text-primary-foreground/80 hover:text-accent transition-colors">
                   Window Cleaning
                 </Link>
               </li>
               <li>
-                <Link to="/services#house-washing" className="text-primary-foreground/80 hover:text-accent transition-colors">
-                  House Washing
+                <Link to="/house-washing" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  House Washing &amp; Soft Washing
+                </Link>
+              </li>
+              <li>
+                <Link to="/gutter-cleaning" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  Gutter Cleaning
                 </Link>
               </li>
             </ul>
@@ -119,7 +129,7 @@ const Footer = () => {
               © {new Date().getFullYear()} Pressure Pros Exterior Cleaning Solutions. All rights reserved.
             </p>
             <p className="text-primary-foreground/60 text-sm">
-              Proudly serving Starkville, MS and surrounding areas
+              Serving Starkville, Columbus, West Point, Mississippi State and Louisville, MS
             </p>
           </div>
         </div>
