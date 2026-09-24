@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import logoAsset from "@/assets/pressure-pros-logo.jpg.asset.json";
 
 const Navbar = () => {
