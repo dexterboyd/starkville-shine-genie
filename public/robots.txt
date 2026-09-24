@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://www.pressureproscleaningsolutions.com/sitemap.xml
