@@ -1,11 +1,13 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
+import Seo from "@/components/Seo";
 import { MapPin, Heart, Users } from "lucide-react";
 
 const About = () => {
   return (
     <div className="min-h-screen">
+      <Seo title="About Pressure Pros | Exterior Cleaning in Starkville, MS" description="Meet Pressure Pros, the locally owned window cleaning, soft washing and gutter cleaning company based in Starkville, MS. Call 662-242-0663." path="/about" />
       <Navbar />
       <main>
         {/* Hero Section */}
