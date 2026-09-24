@@ -36,16 +36,16 @@ const Contact = () => (
       <h2>Services we can schedule</h2>
       <ul className="list-disc pl-5">
         {services.map((s) => (
-          <li key={s.slug}><Link to={`/${s.slug}`}>{s.name}</Link>{s.price && <> (<strong className="uppercase">Starting at</strong> {s.price})</>}</li>
+          <li key={s.slug}><Link to={`/${s.slug}/`}>{s.name}</Link>{s.price && <> (<strong className="uppercase">Starting at</strong> {s.price})</>}</li>
         ))}
       </ul>
       <h2>Areas we serve</h2>
       <p>
         We're based in Starkville and work throughout the Golden Triangle, including{" "}
         {cities.map((c, i) => (
-          <span key={c.slug}><Link to={`/${c.slug}`}>{c.name}</Link>{i < cities.length - 1 ? ", " : ""}</span>
+          <span key={c.slug}><Link to={`/${c.slug}/`}>{c.name}</Link>{i < cities.length - 1 ? ", " : ""}</span>
         ))}
-        . See the full <Link to="/service-area">service area</Link> page for details.
+        . See the full <Link to="/service-area/">service area</Link> page for details.
       </p>
       <h3>When is the best time to book?</h3>
       <p>

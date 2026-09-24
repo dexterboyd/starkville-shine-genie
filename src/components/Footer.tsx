@@ -37,17 +37,17 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/service-area" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                <Link to="/service-area/" className="text-primary-foreground/80 hover:text-accent transition-colors">
                   Service Area
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                <Link to="/contact/" className="text-primary-foreground/80 hover:text-accent transition-colors">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                <Link to="/about/" className="text-primary-foreground/80 hover:text-accent transition-colors">
                   About Us
                 </Link>
               </li>
@@ -59,17 +59,17 @@ const Footer = () => {
             <h4 className="font-heading font-semibold text-lg mb-6">Our Services</h4>
             <ul className="space-y-3">
               <li>
-                <Link to="/window-cleaning" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                <Link to="/window-cleaning/" className="text-primary-foreground/80 hover:text-accent transition-colors">
                   Window Cleaning
                 </Link>
               </li>
               <li>
-                <Link to="/house-washing" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                <Link to="/house-washing/" className="text-primary-foreground/80 hover:text-accent transition-colors">
                   House Washing &amp; Soft Washing
                 </Link>
               </li>
               <li>
-                <Link to="/gutter-cleaning" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                <Link to="/gutter-cleaning/" className="text-primary-foreground/80 hover:text-accent transition-colors">
                   Gutter Cleaning
                 </Link>
               </li>

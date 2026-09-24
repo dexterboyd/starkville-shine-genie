@@ -20,7 +20,7 @@ const CityPage = ({ slug }: { slug: string }) => {
         <ul className="list-disc pl-5">
           {services.map((s) => (
             <li key={s.slug}>
-              <Link to={`/${s.slug}`}>{s.name} in {c.name}</Link>
+              <Link to={`/${s.slug}/`}>{s.name} in {c.name}</Link>
               {s.price && <> (<strong className="uppercase">Starting at</strong> {s.price})</>}
             </li>
           ))}
@@ -29,10 +29,10 @@ const CityPage = ({ slug }: { slug: string }) => {
         <p>
           {cities.filter((o) => o.slug !== c.slug).map((o, i, arr) => (
             <span key={o.slug}>
-              <Link to={`/${o.slug}`}>{o.name}</Link>{i < arr.length - 1 ? " · " : ""}
+              <Link to={`/${o.slug}/`}>{o.name}</Link>{i < arr.length - 1 ? " · " : ""}
             </span>
           ))}
-          {" · "}<Link to="/service-area">Full service area</Link>
+          {" · "}<Link to="/service-area/">Full service area</Link>
         </p>
       </Prose>
     </PageLayout>
