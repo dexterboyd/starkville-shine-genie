@@ -40,6 +40,11 @@ jobs:
         run: npm ci
       - name: Build site
         run: npm run build
+      - name: Verify prerendered output
+        run: |
+          test -s dist/index.html
+          grep -q "<h1" dist/index.html
+          test -f dist/sitemap.xml
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
@@ -48,4 +53,4 @@ jobs:
           path: './dist'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4
