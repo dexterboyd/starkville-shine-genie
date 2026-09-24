@@ -89,6 +89,9 @@ const ServicesOverview = () => {
                 >
                   <Link to={service.title === "Window Cleaning" ? "/window-cleaning/" : "/house-washing/"}>
                     Learn More
+                    <span className="sr-only">
+                      about {service.title.toLowerCase()} in Starkville, MS
+                    </span>
                     <ArrowRight className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
                   </Link>
                 </Button>
