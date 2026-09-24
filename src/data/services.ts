@@ -30,7 +30,7 @@ export const services: Service[] = [
       "Clear, bright windows for homes and small businesses across Starkville and the Golden Triangle, with screens and tracks cleaned as part of every job.",
     image: windowImage,
     imageSmall: windowImageSmall,
-    alt: "Pressure Pros technician cleaning exterior windows on a Starkville home",
+    alt: "Pressure Pros Exterior Cleaning Solutions technician cleaning exterior windows on a Starkville home",
     price: "$99",
     sections: [
       {

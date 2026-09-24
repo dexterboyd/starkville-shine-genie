@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 
 export const SITE_URL = "https://www.pressureproscleaningsolutions.com";
-export const BRAND = "Pressure Pros";
+export const BRAND = "Pressure Pros Exterior Cleaning Solutions";
 export const PHONE_DISPLAY = "(662) 242-0663";
 export const PHONE_TEL = "tel:6622420663";
 export const SERVICE_AREA = ["Starkville", "Columbus", "West Point", "Mississippi State", "Louisville"];

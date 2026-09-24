@@ -17,7 +17,7 @@ const Index = () => {
         schema={{
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          name: "Pressure Pros Window Cleaning & House Washing",
+          name: "Pressure Pros Exterior Cleaning Solutions",
           telephone: "+1-662-242-0663",
           url: "https://www.pressureproscleaningsolutions.com",
           image: "https://www.pressureproscleaningsolutions.com/og-image.png",
@@ -51,7 +51,7 @@ const Index = () => {
         <Prose>
           <h2>Local exterior cleaning for the Golden Triangle</h2>
           <p>
-            Pressure Pros is a locally owned exterior cleaning company based in Starkville. We help homeowners, landlords
+            Pressure Pros Exterior Cleaning Solutions is a locally owned exterior cleaning company based in Starkville. We help homeowners, landlords
             and small businesses keep windows, siding and gutters clean through every North Mississippi season, from the
             yellow pollen of early spring to the humid summers that feed mildew and green algae.
           </p>
