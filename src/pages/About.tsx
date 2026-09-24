@@ -89,7 +89,7 @@ const About = () => {
             Pressure Pros started with a simple idea: exterior cleaning should be honest, careful and done right the
             first time. We show up when we say we will, give you a clear price before we start, and treat your home the
             way we'd want our own treated. We protect your landscaping, rinse our work carefully, and don't leave until
-            the job looks finished.
+            the job looks finished. We are a small, local team, so the person you talk to on the phone is part of the crew that shows up at your door, and we stand behind every job we do.
           </p>
           <p>
             We chose our methods for North Mississippi conditions. Soft washing clears mildew, algae and red clay stains
