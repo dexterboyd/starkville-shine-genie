@@ -14,7 +14,7 @@ interface SeoProps {
 }
 
 const Seo = ({ title, description, path, schema }: SeoProps) => {
-  const url = `${SITE_URL}${path}`;
+  const url = `${SITE_URL}${path === "/" ? "/" : path.replace(/\/?$/, "/")}`;
   const schemas = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
   return (
     <Helmet>

@@ -20,7 +20,7 @@ export const CallButtons = ({ light = false }: { light?: boolean }) => (
       variant="outline"
       className={light ? "bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" : "border-primary text-primary"}
     >
-      <Link to="/contact">Contact Us</Link>
+      <Link to="/contact/">Contact Us</Link>
     </Button>
   </div>
 );

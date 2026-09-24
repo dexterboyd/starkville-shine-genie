@@ -32,7 +32,7 @@ const ServiceArea = () => (
       <ul className="space-y-3">
         {cities.map((c) => (
           <li key={c.slug}>
-            <h3><Link to={`/${c.slug}`}>{c.name}, MS</Link></h3>
+            <h3><Link to={`/${c.slug}/`}>{c.name}, MS</Link></h3>
             <p>{c.intro}</p>
           </li>
         ))}
@@ -44,13 +44,13 @@ const ServiceArea = () => (
       </p>
       <ul className="list-disc pl-5">
         {services.map((s) => (
-          <li key={s.slug}><Link to={`/${s.slug}`}>{s.name}</Link></li>
+          <li key={s.slug}><Link to={`/${s.slug}/`}>{s.name}</Link></li>
         ))}
       </ul>
       <h2>Not sure if we come to you?</h2>
       <p>
         Call us at (662) 242-0663 and tell us where you are. We'll let you know right away whether you're in our area and
-        when we can get you on the schedule. You can also visit our <Link to="/contact">contact page</Link>.
+        when we can get you on the schedule. You can also visit our <Link to="/contact/">contact page</Link>.
       </p>
     </Prose>
   </PageLayout>

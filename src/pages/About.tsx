@@ -98,10 +98,10 @@ const About = () => {
           </p>
           <h3>Our services and service area</h3>
           <p>
-            We offer <Link to="/window-cleaning">window cleaning</Link>,{" "}
-            <Link to="/house-washing">house washing and soft washing</Link> and{" "}
-            <Link to="/gutter-cleaning">gutter cleaning</Link> in Starkville, Columbus, West Point, Mississippi State and
-            Louisville. See our <Link to="/service-area">service area</Link> or <Link to="/contact">contact us</Link>.
+            We offer <Link to="/window-cleaning/">window cleaning</Link>,{" "}
+            <Link to="/house-washing/">house washing and soft washing</Link> and{" "}
+            <Link to="/gutter-cleaning/">gutter cleaning</Link> in Starkville, Columbus, West Point, Mississippi State and
+            Louisville. See our <Link to="/service-area/">service area</Link> or <Link to="/contact/">contact us</Link>.
           </p>
         </Prose>
         <CTASection />

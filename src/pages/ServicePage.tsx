@@ -62,16 +62,16 @@ const ServicePage = ({ slug }: { slug: string }) => {
           Pressure Pros offers {s.name.toLowerCase()} in{" "}
           {cities.map((c, i) => (
             <span key={c.slug}>
-              <Link to={`/${c.slug}`}>{c.name}</Link>
+              <Link to={`/${c.slug}/`}>{c.name}</Link>
               {i < cities.length - 2 ? ", " : i === cities.length - 2 ? " and " : ""}
             </span>
           ))}
-          . See our full <Link to="/service-area">service area</Link>.
+          . See our full <Link to="/service-area/">service area</Link>.
         </p>
         <h3>Related services</h3>
         <ul className="list-disc pl-5">
           {services.filter((o) => o.slug !== s.slug).map((o) => (
-            <li key={o.slug}><Link to={`/${o.slug}`}>{o.name}</Link></li>
+            <li key={o.slug}><Link to={`/${o.slug}/`}>{o.name}</Link></li>
           ))}
         </ul>
       </Prose>
