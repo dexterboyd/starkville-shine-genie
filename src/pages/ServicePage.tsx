@@ -29,7 +29,19 @@ const ServicePage = ({ slug }: { slug: string }) => {
     <PageLayout h1={s.h1} intro={s.intro}>
       <Seo title={s.title} description={s.description} path={`/${s.slug}`} schema={schema} />
       <Prose>
-        {s.image && <img src={s.image} alt={s.alt} loading="lazy" className="w-full h-72 object-cover rounded-2xl" />}
+        {s.image && (
+          <img
+            src={s.image}
+            srcSet={s.imageSmall ? `${s.imageSmall} 480w, ${s.image} 800w` : undefined}
+            sizes="(max-width: 767px) calc(100vw - 2rem), 768px"
+            alt={s.alt}
+            width="800"
+            height="800"
+            loading="lazy"
+            decoding="async"
+            className="w-full h-72 object-cover rounded-2xl"
+          />
+        )}
         {s.price && (
           <p className="text-foreground text-lg">
             <strong className="uppercase">Starting at</strong> {s.price}

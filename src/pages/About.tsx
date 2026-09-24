@@ -14,7 +14,6 @@ const About = () => {
       <main>
         {/* Hero Section */}
         <section className="pt-32 pb-16 bg-hero-gradient relative overflow-hidden">
-          <div className="absolute inset-0 bg-[url('/placeholder.svg')] opacity-5" />
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-3xl mx-auto text-center">
                <span className="inline-block text-accent font-semibold text-base uppercase tracking-wider mb-4">

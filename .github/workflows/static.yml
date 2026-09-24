@@ -44,6 +44,12 @@ jobs:
         run: |
           test -s dist/index.html
           grep -q "<h1" dist/index.html
+          grep -q "Window Cleaning &amp; House Washing" dist/index.html
+          grep -q "loading=\"lazy\"" dist/index.html
+          grep -q "\.webp" dist/index.html
+          grep -q "rel=\"preload\" href=\"/fonts/montserrat-latin.woff2\"" dist/index.html
+          grep -q "<h1" dist/window-cleaning/index.html
+          grep -q "\.webp" dist/window-cleaning/index.html
           test -f dist/sitemap.xml
       - name: Setup Pages
         uses: actions/configure-pages@v5
