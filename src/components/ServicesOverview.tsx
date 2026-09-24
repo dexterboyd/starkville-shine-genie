@@ -87,7 +87,7 @@ const ServicesOverview = () => {
                   variant="outline"
                   className="group/btn border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                 >
-                  <Link to={service.title === "Window Cleaning" ? "/window-cleaning" : "/house-washing"}>
+                  <Link to={service.title === "Window Cleaning" ? "/window-cleaning/" : "/house-washing/"}>
                     Learn More
                     <ArrowRight className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
                   </Link>
