@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Droplets, Facebook, Instagram } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
+import logoAsset from "@/assets/pressure-pros-logo.jpg.asset.json";
 
 const Footer = () => {
   return (
@@ -8,18 +9,20 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link to="/" className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center">
-                <Droplets className="w-7 h-7 text-accent-foreground" />
-              </div>
-              <div className="flex flex-col">
-                <span className="font-heading font-bold text-lg leading-tight">
-                  Pressure Pros
-                </span>
-                <span className="text-xs text-primary-foreground/70">
-                  Exterior Cleaning Solutions
-                </span>
-              </div>
+            <Link
+              to="/"
+              className="inline-flex mb-6"
+              aria-label="Pressure Pros Exterior Cleaning Solutions home"
+            >
+              <img
+                src={logoAsset.url}
+                alt="Pressure Pros Exterior Cleaning Solutions"
+                width="225"
+                height="225"
+                className="h-28 w-28 object-contain"
+                loading="lazy"
+                decoding="async"
+              />
             </Link>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
               Starkville's trusted local window cleaning and house washing professionals. 
